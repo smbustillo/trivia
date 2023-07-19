@@ -11,7 +11,7 @@ public class ChatGPTClient {
     public String enviarPregunta(String pregunta) {
         String respuesta = "";
 
-        String apiKey = "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"; // Reemplaza "tu_api_key" con tu clave de API de OpenAI
+        String apiKey = "sk-7xxxxx"; // Reemplaza "tu_api_key" con tu clave de API de OpenAI
 
         try {
             String url = "https://api.openai.com/v1/chat/completions";
